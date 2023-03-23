@@ -1,13 +1,14 @@
 doctype html
 html(lang='en')
     head
-        title Duy Vo
+        title Vo The Duy
         meta(charset='utf-8')
         meta(name='viewport' content='width=device-width, initial-scale=1')
         meta(http-equiv='X-UA-Compatible' content='IE=edge')
         meta(name='description' content='Jade website template')
         meta(name='keywords' content='apollo, jade, template, html, sass, jquery')
         meta(name='author' content='Bucky Maler')
+        link(rel='icon' type='image/x-icon' href='favicon.ico')
         link(rel='stylesheet' href='assets/css/main.css')
     body
         section#hero
@@ -27,7 +28,7 @@ html(lang='en')
             .wrapper
                 .welcome
                     h1
-                        strong Ahoyy
+                        strong Ahoy
                         | -hoy!
                     p
                         | I'm Duy, a junior developer, and I'm excited to share my journey
@@ -64,11 +65,11 @@ html(lang='en')
                         a(href='#')
                             i.icon-facebook
                         a(href='#')
-                            i.icon-instagram
+                            i.icon-linkedin
                         a(href='#')
-                            i.icon-twitter
+                            i.icon-github
                         a(href='#')
-                            i.icon-pinterest-p
+                            i.icon-embed
         section#full-slide
             svg(xmlns='http://www.w3.org/2000/svg' viewBox='0 0 384 512')
                 path(d='M58 45.4C47.8 31 27.8 27.7 13.4 38S-4.3 68.2 6 82.6L160 298.3V448c0 17.7 14.3 32 32 32s32-14.3 32-32V298.3L378 82.6c10.3-14.4 6.9-34.4-7.4-44.6S336.2 31 326 45.4L192 232.9 58 45.4z')
@@ -90,23 +91,23 @@ html(lang='en')
                         | "It's not about how much we lost, it's about how much we have left."
                         | - Tony Stark
                 .featured
-                    img(src='assets/img/featured.jpg' alt='Featured')
-        //- section#three-slide
-        //-     svg#Layer_1(version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 100 248.8' style='enable-background: new 0 0 100 248.8' xml:space='preserve')
-        //-         g(transform='translate(0.000000,749.000000) scale(0.100000,-0.100000)')
-        //-             path(d='M0,6245.8V5001.6h500h500V5176v174.4H752.5H505v1069.8V7490H252.5H0V6245.8z')
-        //-     .wrapper
-        //-         ul.slider
-        //-             li.back
-        //-                 img(src='assets/img/three-slide/thumb-1.jpg')
-        //-             li.current
-        //-                 img(src='assets/img/three-slide/thumb-2.jpg')
-        //-             li.front
-        //-                 img(src='assets/img/three-slide/thumb-3.jpg')
-        //-             li
-        //-                 img(src='assets/img/three-slide/thumb-4.jpg')
-        //-     i.icon-chevron-thin-left.prev
-        //-     i.icon-chevron-thin-right.next
+                    img(src='assets/img/quote-transparent.png' alt='Featured')
+        section#three-slide
+            svg#Layer_1(version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 100 248.8' style='enable-background: new 0 0 100 248.8' xml:space='preserve')
+                g(transform='translate(0.000000,749.000000) scale(0.100000,-0.100000)')
+                    path(d='M0,6245.8V5001.6h500h500V5176v174.4H752.5H505v1069.8V7490H252.5H0V6245.8z')
+            .wrapper
+                ul.slider
+                    li.back
+                        img(src='assets/img/three-slide/thumb-1.jpg')
+                    li.current
+                        img(src='assets/img/three-slide/thumb-2.jpg')
+                    li.front
+                        img(src='assets/img/three-slide/thumb-3.jpg')
+                    li
+                        img(src='assets/img/three-slide/thumb-4.jpg')
+            i.icon-chevron-thin-left.prev
+            i.icon-chevron-thin-right.next
         section#contact
             svg(xmlns='http://www.w3.org/2000/svg' viewBox='0 0 448 512')
                 path(d='M224 96a160 160 0 1 0 0 320 160 160 0 1 0 0-320zM448 256A224 224 0 1 1 0 256a224 224 0 1 1 448 0z')

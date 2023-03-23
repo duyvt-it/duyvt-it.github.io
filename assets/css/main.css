@@ -246,27 +246,27 @@ th {
 }
 
 .icon-chevron-thin-left:before {
-  content: "\e904";
+  content: "\ea40";
 }
 
 .icon-chevron-thin-right:before {
-  content: "\e905";
+  content: "\ea3c";
 }
 
-.icon-pinterest-p:before {
-  content: "\e900";
+.icon-embed:before {
+  content: "\ea80";
 }
 
-.icon-twitter:before {
-  content: "\e901";
+.icon-github:before {
+  content: "\eab0";
 }
 
-.icon-instagram:before {
-  content: "\e902";
+.icon-linkedin:before {
+  content: "\eaca";
 }
 
 .icon-facebook:before {
-  content: "\e903";
+  content: "\ea90";
 }
 
 body {
